@@ -11,10 +11,181 @@
 
     <!-- Mobile Specific Metas ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/plugins.css">
+
+    <!-- Script ================================================== -->
+    <script src="https://use.typekit.net/ehh4lya.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 
-<body id="top">
-    <h1>Hello World!</h1>
+<body>
+    
+    <nav class="side">
+        <div class="side__inner">
+            <div class="top"><a href="#">Monica Gonzalez</a></div>
+            <div class="bottom">
+                <a href="https://www.linkedin.com/in/monica-gonzalez-b587b9207/" title="Go to LinkedIn." aria-label="Go to LinkedIn." target="_blank">LinkedIn</a>
+                <a href="https://github.com/Monica-code-design" title="Go to Github." aria-label="Go to Github." target="_blank">Github</a>
+                <a href="mailto:monicagonzalez.dev@gmail.com" title="Email Me." aria-label="Email Me.">Email Me</a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="section section--hello" id="hello">
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#intro"><span>#0</span>Hello</a>
+                <h2><span class="typed"></span></h2>
+                <ul class="anchornav">
+                    <li><a href="#intro">Intro <span>#1 Who is this girl?</span></a></li>
+                    <li><a href="#about">About <span>#2 What does she do?</span></a></li>
+                    <li><a href="#portfolio">Portfolio <span>#3 What has she worked on?</span></a></li>
+                    <li><a href="#contact">Contact <span>#4 Write her a message</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section section--intro fadeInUp wow" data-wow-delay="0.5s" id="intro">
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#intro"><span>#1</span>Intro</a>
+                <h1>I'm Monica Gonzalez,<br>
+                    a creative Web <br>
+                    Developer based in<br>
+                    the Chicago area.</h1>
+                <p class="lead">
+                    Fueled by curiosity, when not in front of my computer, I can be found painting, building Legos, or reading a book.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section section--about fadeInUp wow" data-wow-delay="0.5s" id="about">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <polygon points="100 0 100 10 0 10" />
+        </svg>
+    
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#about"><span>#2</span>About</a>
+                <h2>I work with companies and agencies, creating responsive web applications.</h2>
+                <p class="lead">Building the right foundation to ongoing optimization and support. In short, I try to make the web a better place.</p>
+            </div>
+        </div>
+    
+    </section>
+    
+    <section class="section section--clients" id="portfolio">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+        </svg>
+    
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#portfolio"><span>#3</span>Portfolio</a>
+                <h2><a href="#modal1" class="portfolio-link" data-toggle="modal" data-target="#modal1">Creative Portfolio Template</a></h2>
+                <p class="lead">A minimal and clean HTML template focused on displaying portfolio images in an elegant manner.</p>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="modal1" tabindex="0" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Creative Portfolio Template</h2>
+                                <p class="item-intro text-muted">&nbsp;</p>
+                                <img class="img-responsive" src="https://i.ibb.co/4RhMPgz/001.jpg?q=100&fm=jpg&auto=format" alt="Mockup presentation of portfolio template.">
+                                <p>A project developed with the freelancer in mind where I acted as the lead designer and developer. The main challenge was exploring a multi-page layout and focusing on a modular structure. I have set up the page to be easily customizable and tailored to someone's portfolio, whether that be another developer, graphic designer, architect, etc.</p>
+                                <ul class="list-inline">
+                                    <li><b>Stack:</b> HTML5, CSS3, JS, jQuery</li>
+                                    <li><b>Client:</b> Freelance</li>
+                                    <li><b>Category:</b> Frontend Development</li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-primary"><a href="https://monica-code-design.github.io/project-template" title="Go to project" aria-label="Go to project" target="_blank">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--portfolio" id="portfolio2">
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#portfolio"><span>#3</span>Portfolio</a>
+                <h2><a href="#modal2" class="portfolio-link" data-toggle="modal" data-target="#modal2">Design Agency Template</a></h2>
+                <p class="lead">A bold yet straightforward HTML template tailored to a powerful digital services agency.</p>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none" class="bottom">
+            <path d="M0 0 L50 100 L100 0 Z"></path>
+        </svg>
+
+        <!-- Portfolio Modal 2 -->
+        <div class="portfolio-modal modal fade" id="modal2" tabindex="0" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Design Agency Template</h2>
+                                <p class="item-intro text-muted">&nbsp;</p>
+                                <img class="img-responsive" src="https://i.ibb.co/Db6093W/002.jpg?q=100&fm=jpg&auto=format" alt="Mockup presentation of portfolio template.">
+                                <p>I was responsible for the initial UI/UX, structure, design, and development of this project. The idea was to follow the common trends of a full-width layout with other bold additions throughout. Building upon that to tailor the structure to an experienced agency with multiple projects.</p>
+                                <ul class="list-inline">
+                                    <li><b>Stack:</b> HTML5, CSS3, JS, jQuery</li>
+                                    <li><b>Client:</b> Freelance</li>
+                                    <li><b>Category:</b> Frontend Development</li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-primary"><a href="https://monica-code-design.github.io/agency-template/" title="Go to project" aria-label="Go to project" target="_blank">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="section section--contact" id="contact">
+        <div class="section__inner">
+            <div class="block">
+                <a class="pre" href="#contact"><span>#5</span>Get in touch</a>
+                <h2>For work inquiries<br>please email:<br>
+                <span class="email-block"><a href="mailto:monicagonzalez.dev@gmail.com" style="overflow-wrap: anywhere;">monicagonzalez.dev@gmail.com</a></span></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Java Script ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
