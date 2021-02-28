@@ -494,12 +494,18 @@ a.active {
 }
 
 .btn-primary {
-    border-color: #de5f5f;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #fff;
-    background-color: #de5f5f;
+  border-color: #de5f5f;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #de5f5f;
+  padding: 15px 25px;
+}
+
+.btn-dark {
+  background-color: #343436;
+  border-color: #343436;
 }
 
 .btn-primary:hover,
@@ -510,6 +516,13 @@ a.active {
     border-color: #c45151;
     color: #fff;
     background-color: #c45151;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 .btn-primary:active,
@@ -1258,6 +1271,10 @@ img::-moz-selection {
 
 .btn-primary > a {
     color: white;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 975px){
