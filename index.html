@@ -1,201 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="no-js" lang="en">
 <head>
-
-    <!--- Basic Page Needs ================================================== -->
     <meta charset="utf-8">
-    <title>Monica Gonzalez | Portfolio</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Mobile Specific Metas ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Monica Reynaga | Portfolio</title>
+    <meta name="description" content="A creative development portfolio for Monica Reynaga">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS ================================================== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/plugins.css">
-
-    <!-- Script ================================================== -->
-    <script src="https://use.typekit.net/ehh4lya.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/modernizr.js" defer></script>
+    <script src="js/pace.min.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
-<body>
-    
-    <nav class="side">
-        <div class="side__inner">
-            <div class="top"><a href="#">Monica Gonzalez</a></div>
-            <div class="bottom">
-                <a href="https://www.linkedin.com/in/monica-gonzalez-b587b9207/" title="Go to LinkedIn." aria-label="Go to LinkedIn." target="_blank">LinkedIn</a>
-                <a href="https://github.com/Monica-code-design" title="Go to Github." aria-label="Go to Github." target="_blank">Github</a>
-                <a href="mailto:monicagonzalez.dev@gmail.com" title="Email Me." aria-label="Email Me.">Email Me</a>
-            </div>
-        </div>
-    </nav>
-    
-    <section class="section section--hello" id="hello">
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#intro"><span>#0</span>Hello</a>
-                <h2><span class="typed"></span></h2>
-                <ul class="anchornav">
-                    <li><a href="#intro">Intro <span>#1 Who is this girl?</span></a></li>
-                    <li><a href="#about">About <span>#2 What does she do?</span></a></li>
-                    <li><a href="#portfolio">Portfolio <span>#3 What has she worked on?</span></a></li>
-                    <li><a href="#contact">Contact <span>#4 Write her a message</span></a></li>
+<body id="top">
+    <header class="s-header">
+        <nav class="header-nav">
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <div class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll" href="#home" title="Home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#works" title="Works">Works</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
+                </ul>
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/monica-reynaga" target="_blank" title="Go to LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/monica-code-design" target="_blank" title="Go to GitHub profile"><i class="fab fa-github"></i></a>
+                    </li>
                 </ul>
             </div>
-        </div>
-    </section>
-    
-    <section class="section section--intro fadeInUp wow" data-wow-delay="0.5s" id="intro">
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#intro"><span>#1</span>Intro</a>
-                <h1>I'm Monica Gonzalez,<br>
-                    a creative Web <br>
-                    Developer based in<br>
-                    the Chicago area.</h1>
-                <p class="lead">
-                    Fueled by curiosity, when not in front of my computer, I can be found painting, building Legos, or reading a book.
-                </p>
+        </nav>
+        <a class="header-menu-toggle" href="javascript:void(0);">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+    </header>
+
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+        <div class="home-content">
+            <div class="row home-content__main">
+                <h1 class="h1-only-mobile">I strive to make the world a beautiful place, one line of code at a time.</h1>
+                <div class="letters h1 hide-mobile">
+                    <span class="i">I</span>&nbsp;
+                    <span class="strive">strive</span>&nbsp;
+                    <span class="to">to</span>&nbsp;
+                    <span class="make">make</span>&nbsp;
+                    <span class="the">the</span>&nbsp;
+                </div>
+                <div class="letters h1 hide-mobile">
+                    <span class="world">world</span>&nbsp;
+                    <span class="a">a</span>&nbsp;
+                    <span class="beautiful">beautiful</span>&nbsp;
+                    <span class="place">place,</span>&nbsp;
+                </div>
+                <div class="letters h1 hide-mobile">
+                    <span class="one">one</span>&nbsp;
+                    <span class="line">line</span>&nbsp;
+                    <span class="of">of</span>&nbsp;
+                    <span class="code">code</span>&nbsp;
+                    <span class="at">at</span>&nbsp;
+                    <span class="a-2">a</span>&nbsp;
+                    <span class="time">time</span>&nbsp;
+                </div>
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke button" title="Start a project">Start a Project</a>
+                    <a href="#about" class="smoothscroll btn btn--stroke button" title="More about me">More About Me</a>
+                </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="section section--about fadeInUp wow" data-wow-delay="0.5s" id="about">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-            <polygon points="100 0 100 10 0 10" />
-        </svg>
-    
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#about"><span>#2</span>About</a>
-                <h2>I work with companies and agencies, creating responsive web applications.</h2>
-                <p class="lead">Building the right foundation to ongoing optimization and support. In short, I try to make the web a better place.</p>
-            </div>
-        </div>
-    
-    </section>
-    
-    <section class="section section--clients" id="portfolio">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-        </svg>
-    
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#portfolio"><span>#3</span>Portfolio</a>
-                <h2><a href="#modal1" class="portfolio-link" data-toggle="modal" data-target="#modal1" title="Open project modal">Creative Portfolio Template</a></h2>
-                <p class="lead mb-4">A minimal and clean HTML template focused on displaying portfolio images in an elegant manner.</p>
-                <a href="#modal1" class="portfolio-link" data-toggle="modal" data-target="#modal1" title="Open project modal">
-                    <button type="button" class="btn btn-primary btn-modal">View Project</button>
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll" title="Scroll down">
+                    <span>Scroll Down</span>
                 </a>
             </div>
+            <div class="home-content__line"></div>
         </div>
+        <ul class="home-social">
+            <li>
+                <a href="https://www.linkedin.com/in/monica-reynaga" target="_blank" title="Go to LinkedIn profile"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/monica-code-design" target="_blank" title="Go to GitHub profile"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+        </ul>
+    </section>
 
-        <!-- Portfolio Modal 1 -->
-        <div class="portfolio-modal modal fade" id="modal1" tabindex="0" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <section id='about' class="s-about">
+        <div class="row section-header">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">I'm Monica!</h1>
+            </div>
+        </div>
+        <div class="row about-desc">
+            <div class="col-full">
+                <p>I'm a creative developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building state-of-the-art web pages and expanding my expertise in React.js.</p>
+            </div>
+        </div>
+        <div class="about__line"></div>
+    </section>
+
+    <section id='works' class="s-works">
+        <div class="intro-wrap">
+            <div class="row section-header">
+                <div class="col-full">
+                    <h3 class="subhead">Recent Works</h3>
+                    <h1 class="display-2">I love what I do, check out some of my latest projects.</h1>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Creative Portfolio Template</h2>
-                                <p class="item-intro text-muted">&nbsp;</p>
-                                <img class="img-responsive" src="https://base-bucket-00231.s3.us-east-2.amazonaws.com/001.jpeg" alt="Mockup presentation of portfolio template.">
-                                <p>A project developed with the freelancer in mind where I acted as the lead designer and developer. The main challenge was exploring a multi-page layout and focusing on a modular structure. I have set up the page to be easily customizable and tailored to someone's portfolio, whether that be another developer, graphic designer, architect, etc.</p>
-                                <ul class="list-inline">
-                                    <li><b>Stack:</b> HTML5, CSS3, JS, jQuery</li>
-                                    <li><b>Client:</b> Freelance</li>
-                                    <li><b>Category:</b> Frontend Development</li>
-                                </ul>
+            </div>
+        </div>
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                          <div class="item-folio__thumb">
+                            <div class="thumb-link" data-size="2000x1250">
+                                <img src="images/grid/project--one.jpg" width="100%" height="100%" alt="A man holding a camera while filming a close up shot of a restaurant kitchen shelf.">
                             </div>
-                            <a href="https://monica-code-design.github.io/project-template" title="Go to project" aria-label="Go to project" target="_blank">
-                                <button type="button" class="btn btn-primary">Explore Website</button>
+                          </div>
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">Agency Website Template</h3>
+                                <p class="item-folio__cat">Personal Project</p>
+                            </div>
+                            <a href="https://monica-code-design.github.io/agency-template/index.html" target="_blank" class="item-folio__project-link" title="Visit website">
+                                <span><i class="icon-link"></i></span>
                             </a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section section--portfolio" id="portfolio2">
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#portfolio"><span>#3</span>Portfolio</a>
-                <h2><a href="#modal2" class="portfolio-link" data-toggle="modal" data-target="#modal2">Design Agency Template</a></h2>
-                <p class="lead mb-4">A bold yet straightforward HTML template tailored to a powerful digital services agency.</p>
-                <a href="#modal2" class="portfolio-link" data-toggle="modal" data-target="#modal2" title="Open project modal">
-                    <button type="button" class="btn btn-primary btn-dark">View Project</button>
-                </a>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none" class="bottom">
-            <path d="M0 0 L50 100 L100 0 Z"></path>
-        </svg>
-
-        <!-- Portfolio Modal 2 -->
-        <div class="portfolio-modal modal fade" id="modal2" tabindex="0" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Design Agency Template</h2>
-                                <p class="item-intro text-muted">&nbsp;</p>
-                                <img class="img-responsive" src="https://base-bucket-00231.s3.us-east-2.amazonaws.com/002.jpeg" alt="Mockup presentation of portfolio template.">
-                                <p>I was responsible for the initial UI/UX, structure, design, and development of this project. The idea was to follow the common trends of a full-width layout with other bold additions throughout. Building upon that to tailor the structure to an experienced agency with multiple projects.</p>
-                                <ul class="list-inline">
-                                    <li><b>Stack:</b> HTML5, CSS3, JS, jQuery</li>
-                                    <li><b>Client:</b> Freelance</li>
-                                    <li><b>Category:</b> Frontend Development</li>
-                                </ul>
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <div class="thumb-link" data-size="2000x1250">
+                                    <img src="images/grid/project--two.jpg" width="100%" height="100%" alt="A graphic illustration of a person looking at a large-scale mobile device with trees and birds.">
+                                </div>
                             </div>
-                            <a href="https://monica-code-design.github.io/agency-template/" title="Go to project" aria-label="Go to project" target="_blank">
-                                <button type="button" class="btn btn-primary">Explore Website</button>
+                            <div class=" item-folio__text">
+                                <h3 class="item-folio__title">Social Media Platform</h3>
+                                <p class="item-folio__cat">Personal Project</p>
+                            </div>
+                            <a href="https://monica-code-design.github.io/se_project_aroundtheus" target="_blank" class="item-folio__project-link" title="Visit website">
+                                <span><i class="icon-link"></i></span>
                             </a>
                         </div>
                     </div>
+                    <div class="masonry__brick">
+                      <div class="item-folio">
+                          <div class="item-folio__thumb">
+                              <div class="thumb-link" data-size="2000x1250">
+                                  <img src="images/grid/project--three.jpg" width="100%" height="100%" alt="A landscape picture of the Fresenius Kabi building headquarters.">
+                              </div>
+                          </div>
+                          <div class=" item-folio__text">
+                              <h3 class="item-folio__title">Simplist Platform Site Launch</h3>
+                              <p class="item-folio__cat">Contract Project</p>
+                          </div>
+                          <a href="https://www.simplist-us.com" target="_blank" class="item-folio__project-link" title="Visit website">
+                              <span><i class="icon-link"></i></span>
+                          </a>
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
-    <section class="section section--contact" id="contact">
-        <div class="section__inner">
-            <div class="block">
-                <a class="pre" href="#contact"><span>#5</span>Get in touch</a>
-                <h2>For work inquiries<br>please email:<br>
-                <span class="email-block"><a href="mailto:monicagonzalez.dev@gmail.com">monicagonzalez.dev@gmail.com</a></span></h2>
+
+    <section id="contact" class="s-contact">
+        <div class="contact__line"></div>
+        <div class="row section-header">
+            <div class="col-full">
+                <h3 class="subhead">What's Next?</h3>
+                <h1 class="display-2">Get In Touch</h1>
+            </div>
+        </div>
+        <p class="contact__desc">My inbox is always open to discuss a project or opportunity. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        <div class="row contact-content">
+            <div class="contact-primary">
+                <div class="form-field">
+                    <div class="works-content__buttons">
+                        <a href="mailto:mreynaga.dev@gmail.com?Subject=Hello%20Again%20&#128075;" target="_top" class="btn btn--stroke button" title="Send a message via email">Send A Message</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Java Script ================================================== -->
+    <footer>
+        <div class="row footer-bottom">
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>Made with &nbsp;&#129505;&nbsp; by Monica Reynaga</span>
+                </div>
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/plugins.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
-
 </html>
